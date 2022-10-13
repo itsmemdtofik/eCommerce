@@ -1,0 +1,36 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Address{% endblock title %}
+{% block main-content %}
+<div class="container my-5">
+ <div class="row">
+ <h3 id = "font">Welcome <span class = "text-capitalize" style = "font-family: 'Belanusa', sans-serif;">{{request.user}}</span></h3>
+  <div class="col-sm-2 border-end">
+   <ul class="list-unstyled">
+    <li class="d-grid"><a href="{% url 'profile' %}" class="btn " id = "font">Profile</a></li><br>
+    <li class="d-grid"><a href="{% url 'address' %}" class="btn {{active}}" id = "font">Address</a></li>
+   </ul>
+  </div>
+  <div class="col-sm-9 offset-sm-1">
+   <div class="row">
+    {% for addrs in address %}
+    <div class="col-sm-6">
+     <div class="card">
+      <div class="card-body">
+       <h4 style = "text-transform:uppercase;letter-spacing:3px;">Address {{forloop.counter}}</h4>
+       <div style = "text-transform:capitalize;letter-spacing:2px;font-family:sans-serif;">
+       <p>Name : {{addrs.name}}</p>
+       <p>Locality : {{addrs.locality}}</p>
+       <p>City : {{addrs.city}}</p>
+       <p>State : {{addrs.state}}</p>
+       <p>Pin Code : {{addrs.zipcode}}</p>
+       </div>
+      </div>
+     </div>
+    </div>
+    {% endfor %}
+   </div>
+  </div>
+ </div>
+</div>
+{% endblock main-content %}
