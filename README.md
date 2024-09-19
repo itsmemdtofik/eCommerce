@@ -46,9 +46,9 @@ This is a simple and responsive eCommerce platform that allows users to browse p
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Django (or your framework)
+- **Backend**: Django
 - **Security**: HMAC, SHA-256 for encryption
-- **Database**: SQLite (or your preferred database)
+- **Database**: SQLite3
 - **Version Control**: GitHub for repository management
 
 ## How to Install and Run Locally
@@ -56,23 +56,17 @@ This is a simple and responsive eCommerce platform that allows users to browse p
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/ecommerce-platform.git
+    git clone [https://github.com/itsmemdtofik/eCommerce]
     cd ecommerce-platform
     ```
 
-2. Install the dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Run the project locally:
+2. Run the project locally:
 
     ```bash
     python manage.py runserver
     ```
 
-4. Open your browser and navigate to:
+3. Open your browser and navigate to:
 
     ```
     http://localhost:8000
@@ -94,5 +88,5 @@ Feel free to fork this project, create a pull request, or open an issue. Contrib
 
 For any inquiries or support, reach out to the project maintainer:
 
-- Name: **Your Full Name**
-- GitHub: [your-username](https://github.com/your-username)
+- Name: **Mohammad Tofik**
+- GitHub: [itsmemdtofik](https://github.com/itsmemdtofik)
