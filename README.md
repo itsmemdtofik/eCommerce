@@ -14,6 +14,10 @@
 
 # 🛒 eCommerce Platform
 
+## About
+
+This repository contains an eCommerce application that offers a seamless online shopping experience, featuring user authentication, product browsing, cart management, and secure checkout, all built with modern web technologies.
+
 ## Overview
 
 This is a simple and responsive eCommerce platform that allows users to browse products, register, login, and add items to the shopping cart. It features a dynamic user interface for managing shopping experiences in a clean and modern design.
