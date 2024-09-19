@@ -75,6 +75,7 @@ This is a simple and responsive eCommerce platform that allows users to browse p
 ## License
 
 This project is licensed under the Apache License 2.0. You can find more information in the [LICENSE](LICENSE) file.
+Repository link: [https://github.com/itsmemdtofik/eCommerce](https://github.com/itsmemdtofik/eCommerce)
 
 ---
 
