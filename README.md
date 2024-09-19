@@ -56,7 +56,7 @@ This is a simple and responsive eCommerce platform that allows users to browse p
 1. Clone the repository:
 
     ```bash
-    git clone -**https://github.com/itsmemdtofik/eCommerce**
+    git clone https://github.com/itsmemdtofik/eCommerce
     cd ecommerceapp
     ```
 
